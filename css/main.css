@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #626262;
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+}
+
+ .grid {
+    padding-left: 15px;
+    padding-right: 15px;
+    display:grid;
+    grid-template-columns: repeat(12, 70px);
+    grid-column-gap: 30px;
+}
+
+ .hidden {
+    display: none;
+}
+
+ #main-header {
+    position: sticky;
+    background-color: rgb(59, 59, 59);
+    top:0px;
+    height:110px;
+}
+ 
+ .logo img {
+    width: 565px;
+    height: auto;
+    margin: -229px 0 0 -100px;;
+}
+      
+
+ 
+#main-nav {
+    grid-column: 6/13;
+    margin:0;
+    margin-top:10px;
+    margin-left:300px;
+    height:90px;
+    float: right;
+}
+ 
+ #main-nav ul {
+    margin-top: 35px;
+    margin-left: 30px;
+    padding:0;
+    float: right;
+}
+ 
+ #main-nav li {
+ display:inline;
+ margin-right: 28px;
+}
+ 
+ #main-nav li:last-child {
+    margin-right: 0;
+}
+ 
+ #main-nav li a {
+    color:#dddddd;
+    text-decoration: none;
+}
+ 
+ #main-nav li a:hover {
+  padding-bottom: 8px;
+  border-bottom: 3px solid rgb(194, 173, 117);
+}
+ 
+ #main-nav li a.active {
+    padding-bottom: 8px;
+    border-bottom: 3px solid rgb(194, 173, 117);
+}
+#main-hero {
+  background-image: url(../images/niagara1.jpg);
+  width: 1834px;
+  height: 1441px;
+
+}
+
+.title-line {
+    grid-column: 2/12;
+    width: 100%;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+#hero-welcome {
+    padding-bottom: 60px;
+}
+
+#hero-welcome h1 {
+    grid-column: 2/12;
+    text-align: center;
+    font-size: 50px;
+}
+
+#quote h1{
+    font-style: italic;
+    font-family: "Cookie";
+    grid-column: 2/12;
+    text-align: center;
+    font-size: 35px;
+}
+
+#quote h3 {
+    font-style: italic;
+    font-family: "Cookie";
+    grid-column: 2/12;
+    margin-left: 660px;
+    margin-top: 5px;
+}
+
+#about-me {
+    grid-column: 2/12;
+    text-align: justify;
+    margin-top: 300px;
+    margin-left: 500px;
+}
+
+#about-me.selected {
+    background-color: #525151 ;
+    color: #fff;
+    padding: 20px 20px 0 20px;
+    height: 350px;
+}
+ 
+#about-me h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+
+#about-me p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 18px;
+}
+
+#about-me img {
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin-right: 600px;
+    margin-bottom: 500px;
+}
+
+#textbox{
+    width: 120px;
+    height: 35px;
+    padding:5px;
+    margin-left: 60px;
+    border-radius: 15px;
+    text-align: center;
+    float: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+}
+
+#textbox li {
+    display:inline;
+    margin-right: 28px;
+}
+    
+#textbox li a {
+    color:#dddddd;
+    text-decoration: none;
+    text-align: center;
+}
+
+#welcoming {
+    margin-top: 700px;
+    text-align: center;
+}
+
+#welcoming img {
+    float: center;
+    display: inline;
+    margin: 0 5px;
+    width: 610px; 
+    height: 360px;
+}
+
+.img1 {
+    float: left;
+}
+
+.img2 {
+    float: center;
+}
+
+.img3 {
+    float: right;
+}
+
+#sns img {
+    margin-top: 50px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+#main-footer {
+    background-color: rgb(59, 59, 59);
+    top:0px;
+    height:150px;
+    display: block;
+}
+
+#footer-nav {
+    margin-top: 30px;
+    float: left;
+}
+
+#footer-nav ul {
+    padding:0;
+}
+
+#footer-nav li {
+    display:inline;
+   }
+
+#footer-nav li a {
+    color:#dddddd;
+    text-decoration: none;
+}
+ 
+ #footer-nav li a:hover {
+  padding-bottom: 8px;
+  border-bottom: 3px solid rgb(194, 173, 117);
+}
+ 
+ #footer-nav li a.active {
+    padding-bottom: 8px;
+    border-bottom: 3px solid rgb(194, 173, 117);
+}
+
+#footer-quote {
+    float: right;
+    text-align: right;
+}
