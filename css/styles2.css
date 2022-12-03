@@ -31,6 +31,41 @@ body {
     margin: -229px 0 0 -100px;;
 }
       
+#about-me1 img {
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin-right: 200px;
+    margin-bottom: 500px;
+}
+
+#about-me1 h1{
+    text-align: center;
+    margin-left: 650px;
+}
+
+#about-me1 p{
+    text-align: center;
+    margin-left: 650px;
+}
+
+#about-me2 ul{
+    text-align: center;
+    list-style: none;
+    padding-left: 10px;
+}
+
+#about-me2 img{
+    width: 400px;
+    height: 570px;
+    float: left;
+    margin-left: 200px;
+}
+
+#about-me2 p{
+    padding-top: 100px;
+    text-align: center;
+}
 
  
 #main-nav {
@@ -71,4 +106,51 @@ body {
  #main-nav li a.active {
     padding-bottom: 8px;
     border-bottom: 3px solid rgb(194, 173, 117);
+}
+
+#sns img {
+    margin-top: 50px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+#main-footer {
+    background-color: rgb(59, 59, 59);
+    top:0px;
+    height:150px;
+    display: block;
+}
+
+#footer-nav {
+    margin-top: 30px;
+    float: left;
+}
+
+#footer-nav ul {
+    padding:0;
+}
+
+#footer-nav li {
+    display:inline;
+   }
+
+#footer-nav li a {
+    color:#dddddd;
+    text-decoration: none;
+}
+ 
+ #footer-nav li a:hover {
+  padding-bottom: 8px;
+  border-bottom: 3px solid rgb(194, 173, 117);
+}
+ 
+ #footer-nav li a.active {
+    padding-bottom: 8px;
+    border-bottom: 3px solid rgb(194, 173, 117);
+}
+
+#footer-quote {
+    float: right;
+    text-align: right;
 }
