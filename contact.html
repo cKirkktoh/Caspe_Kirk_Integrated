@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Cookie:regular"]
+        }
+      });
+    </script>
+    <link rel="stylesheet" href="css/styles3.css">
+    <title>.: MobPhotography :.</title>
+</head>
+<body>
+    <h1 class="hidden">Welcome to My Website!</h1>
+    <div class="container">
+    <header id="main-header" class="grid">
+        <div class="logo">
+            <img src="images/logos/Logo.svg" alt="MobTography Logo">
+        </div>
+        <nav id="main-nav">
+            <h2 class="hidden">Main Navigation</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact-form-hero" class="grid"></section>
+
+    <section id="contact-text" class="grid">
+        <hr class="title-line">
+        <p>Thank you for visiting my website. I hope that my photos from my gallery impresses my viewers. For feedback and contact, please complete our contact form below. Or if you prefer to talked call me from the number listed below.</p>
+    </section>
+
+    <section class="grid">
+        <h2 class="hidden">Contact Information and Form</h2>
+        <section id="contact-info">
+            <h3 class="hidden">Phone and Email</h3>
+            <p>
+                Toll Free:+1 877 201-1156<br>
+                E-mail: kirkcaspe10@gmail.com 
+            </p>
+        </section>
+
+        <section id="contact-form-field">
+            <h3 class="hidden">Contact Us Form</h3>
+            <form action="email.php" method="POST" enctype="text/plain">
+                <input name="fullName" type="text" placeholder="First & Last Name">
+                <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                <input name="submit" type="submit" value="Send">
+            </form>
+        </section>
+
+    </section>
+
+    <section id="sns">
+        <a href="#"><img src="images/logos/fb_logo.png" alt="facebook logo"></a>
+        <a href="#"><img src="images/logos/ig_logo.png" alt="instagram logo"></a>
+        <a href="#"><img src="images/logos/twt_logo.png" alt="twitter logo"></a>
+        <a href="#"><img src="images/logos/yt_logo.png" alt="youtube logo"></a>
+    </section>
+
+    <footer id="main-footer">
+        <nav id="footer-nav">
+            <h3 class="hidden">Footer Nav</h3> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+
+                <div id="footer-quote">
+                    <h2>Shoot Your Shot</h2>
+                </div>                          
+        </nav>
+    </footer>
+</body>

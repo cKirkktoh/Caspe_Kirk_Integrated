@@ -30,9 +30,7 @@ body {
     height: auto;
     margin: -229px 0 0 -100px;;
 }
-      
 
- 
 #main-nav {
     grid-column: 6/13;
     margin:0;
@@ -72,127 +70,58 @@ body {
     padding-bottom: 8px;
     border-bottom: 3px solid rgb(194, 173, 117);
 }
-#main-hero {
-  background-image: url(../images/photos_taken/niagara1.jpg);
-  width: 1834px;
-  height: 1441px;
 
-}
-
-.title-line {
-    grid-column: 2/12;
-    width: 100%;
-    border: none;
-    margin-top: 40px;
-    margin-bottom: 60px;
-}
-
-#hero-welcome {
-    padding-bottom: 60px;
-}
-
-#hero-welcome h1 {
-    grid-column: 2/12;
-    text-align: center;
-    font-size: 50px;
-}
-
-#quote h1{
-    font-style: italic;
-    font-family: "Cookie";
-    grid-column: 2/12;
-    text-align: center;
-    font-size: 35px;
-}
-
-#quote h3 {
-    font-style: italic;
-    font-family: "Cookie";
-    grid-column: 2/12;
-    margin-left: 660px;
-    margin-top: 5px;
-}
-
-#about-me {
-    grid-column: 2/12;
-    text-align: justify;
-    margin-top: 300px;
-    margin-left: 500px;
-}
-
-#about-me.selected {
-    background-color: #525151 ;
-    color: #fff;
-    padding: 20px 20px 0 20px;
-    height: 350px;
+#contact-form-hero {
+    height: 380px;
+    background: url(../images/photos_taken/toronto_buildings.JPG) no-repeat bottom;
 }
  
-#about-me h1 {
-    font-size: 35px;
-    margin-bottom: 10px;
-    margin-left: 60px;
+#contact-text p {
+    grid-column: 2/12;
+    margin-bottom: 80px;
+    text-align: center;
+    margin-left: 100px;
 }
-
-#about-me p {
-    font-size: 15px;
+ 
+#contact-info {
+    grid-column: 2/6;
+}
+ 
+#contact-info h3 {
     margin-bottom: 20px;
-    line-height: 18px;
+    font-size: 36px;
 }
-
-#about-me img {
-    width: 350px;
-    height: 350px;
-    float: right;
-    margin-right: 600px;
-    margin-bottom: 500px;
+ 
+#contact-info p {
+    margin-bottom: 20px;
 }
-
-#textbox{
-    width: 120px;
-    height: 35px;
-    padding:5px;
-    margin-left: 60px;
+ 
+#contact-form-field {
+    grid-column: 6/12;
+}
+ 
+input, textarea {
+    padding: 22px;
+    background-color: #f7f7f7;
     border-radius: 15px;
-    text-align: center;
-    float: center;
-    color: rgb(255, 255, 255);
-    background-color: rgb(102, 102, 102);
+    margin-bottom: 30px;
+    font: inherit;
+    width: 500px;
+    align-self: flex-end;
+    transition: all 200ms ease-in;
 }
-
-#textbox li {
-    display:inline;
-    margin-right: 28px;
+ 
+#contact-form-field textarea {
+    height: 300px;
 }
-    
-#textbox li a {
-    color:#dddddd;
-    text-decoration: none;
-    text-align: center;
+#contact-form-field form {
+    display: flex;
+    flex-direction: column;
 }
-
-#welcoming {
-    margin-top: 700px;
-    text-align: center;
-}
-
-#welcoming img {
-    float: center;
-    display: inline;
-    margin: 0 5px;
-    width: 610px; 
-    height: 360px;
-}
-
-.img1 {
-    float: left;
-}
-
-.img2 {
-    float: center;
-}
-
-.img3 {
-    float: right;
+ 
+input [type="submit"] {
+    background-color: #626262;
+    border-radius: 0;
 }
 
 #sns img {
