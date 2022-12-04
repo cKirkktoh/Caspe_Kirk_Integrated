@@ -1,9 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    color: #626262;
+    color: #ffffff;
     font-family: 'Lato', sans-serif;
     height: 100%;
+    background-color: rgb(173, 173, 173);
 }
 
  .grid {
@@ -37,6 +38,8 @@ body {
     float: right;
     margin-right: 200px;
     margin-bottom: 500px;
+    border: 5px solid rgb(59, 59, 59);
+    border-radius: 10px;
 }
 
 #about-me1 h1{
@@ -60,6 +63,8 @@ body {
     height: 570px;
     float: left;
     margin-left: 200px;
+    border: 5px solid rgb(59, 59, 59);
+    border-radius: 10px;
 }
 
 #about-me2 p{
