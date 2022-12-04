@@ -1,9 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    color: #626262;
+    color: #ffffff;
     font-family: 'Lato', sans-serif;
     height: 100%;
+    background-color: rgb(173, 173, 173);
 }
 
  .grid {
@@ -145,6 +146,9 @@ body {
     float: right;
     margin-right: 600px;
     margin-bottom: 500px;
+   transition: all 200ms ease-in;
+   border: 5px solid rgb(59, 59, 59);
+   border-radius: 10px;
 }
 
 #textbox{
@@ -173,6 +177,7 @@ body {
 #welcoming {
     margin-top: 700px;
     text-align: center;
+    text-decoration: underline;
 }
 
 #welcoming img {
@@ -241,3 +246,8 @@ body {
     float: right;
     text-align: right;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
